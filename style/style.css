@@ -1,0 +1,65 @@
+  * {
+    margin: 0;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center; 
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: nechao, monospace;
+    color: rgb(4, 197, 4);
+  }
+
+  .div-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    height: 100vh;
+    
+  }
+
+  .input-text {
+    width: 100%;
+    word-break: break-all ;
+    font-family: novaSquare, monospace;
+    color: rgb(23, 243, 23);
+    text-align: center;
+    border: none;
+    font-weight: lighter;
+    background-color: black;
+  }
+
+  .input-text:focus {
+    outline: none;
+  }
+
+  .small, .medium, .big {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .letter-green {
+    color: rgb(153, 240, 119);
+    text-shadow: 0px -10px 10px rgb(105, 247, 49);
+    font-weight: 100;
+  }   
+
+  .letter-white {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px -10px 10px rgb(253, 255, 253);
+  }
+
+  @font-face {
+    font-family: novaSquare;
+    src: url('./../font/Nova_Square/NovaSquare-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: nechao;
+    src: url('../font/nechao_sharp/Nechao\ Sharp.ttf');
+  }
