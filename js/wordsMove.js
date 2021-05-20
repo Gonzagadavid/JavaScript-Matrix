@@ -62,7 +62,6 @@ function intervalProgressive(arrayObj, stringArray, randomArray, height) {
     if (limit < randomArray.length) {
       limit++;
     }
-    setTimeout((_) => clearTimeout(interval), 30000);
   }, 100);
 }
 
