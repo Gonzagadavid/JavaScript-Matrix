@@ -54,6 +54,28 @@
     text-shadow: 0px -10px 10px rgb(253, 255, 253);
   }
 
+  .foot {
+    background-color: rgb(00,00,00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    opacity: 70%;
+    height: 8%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(23, 243, 23);
+
+  }
+  
+  .foot i {
+    color: rgb(23, 243, 23);
+    margin-right: 20px;
+    font-size: 30px;
+  }
+  
+
   @font-face {
     font-family: novaSquare;
     src: url('./../font/Nova_Square/NovaSquare-Regular.ttf');
